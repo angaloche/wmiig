@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wmiig:war exploded">
+    <output-path>$PROJECT_DIR$/target/wmiig</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wmiig" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/wmiig/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="wmiig/web/Web" />
+    </root>
+  </artifact>
+</component>
